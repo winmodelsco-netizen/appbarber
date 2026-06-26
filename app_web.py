@@ -7,8 +7,8 @@ from datetime import datetime
 st.set_page_config(page_title="Panel de Control - Barbería", page_icon="✂️", layout="centered")
 
 # 🔐 Conexión a tu Supabase actual
-URL_SUPABASE = "TU_URL_DE_SUPABASE"
-KEY_SUPABASE = "TU_KEY_DE_SUPABASE"
+URL_SUPABASE = "https://mmnxmgwewlrxvnpecabr.supabase.co"
+KEY_SUPABASE = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tbnhtZ3dld2xyeHZucGVjYWJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0NDg4MTMsImV4cCI6MjA5ODAyNDgxM30.xxisLHJTYG-irYktSbs1wjn6c_3Et5bAH4Nl0uNNhi8"
 
 @st.cache_resource
 def conectar_supabase():
