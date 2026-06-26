@@ -75,7 +75,7 @@ with tab_historial:
                 .select("*")\
                 .gte("fecha", f_inicio_str)\
                 .lte("fecha", f_fin_str)\
-                .order("fecha", ascending=False)\
+                .order("fecha", desc=True)\
                 .execute()
                 
             datos = respuesta.data
